@@ -25,7 +25,7 @@ To set up and launch the SecurePatchedEmulator, follow these steps:
 
    Replace `/path/to/emulator` with the actual path where you want to extract the emulator files.
 
-3. Launch the emulator, specifying the path to the extracted emulator directory and the desired AVD name:
+3. Launch the emulator, specifying the path to the extracted emulator directory:
 
    ```shell
    emulator @YourAVDName -sysdir /path/to/emulator/x86_64
