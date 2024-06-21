@@ -1,0 +1,1090 @@
+project art/
+7b48741266 Merge cherrypicks of [15951443, 16093381] into security-aosp-sc-release.
+4af6420e13 Allow PROT_EXEC on the zygote mappings when falling back to ashmem
+b9e29d6593 Change order of creation of JIT mappings.
+
+project bootable/recovery/
+226c7537 Merge cherrypicks of [16033753] into security-aosp-sc-release.
+4b286a27 Do not write past end of inotify event structure.
+
+project build/make/
+581ceefc15 Version bump to SSV1.210916.090 [core/build_id.mk]
+47e29b5dfd Version bump to SSV1.210916.089 [core/build_id.mk]
+ed650fabb9 Version bump to SSV1.210916.088 [core/build_id.mk]
+b316cd7da3 Version bump to SSV1.210916.087 [core/build_id.mk]
+0640be2094 Version bump to SSV1.210916.086 [core/build_id.mk]
+7d4e287f34 Version bump to SSV1.210916.085 [core/build_id.mk]
+28d8e44c8e Version bump to SSV1.210916.084 [core/build_id.mk]
+ae673519ef Version bump to SSV1.210916.083 [core/build_id.mk]
+aace6fb110 Version bump to SSV1.210916.082 [core/build_id.mk]
+8a43d01566 Version bump to SSV1.210916.081 [core/build_id.mk]
+b2dee6a2d7 Version bump to SSV1.210916.080 [core/build_id.mk]
+9719e4d44b Version bump to SSV1.210916.079 [core/build_id.mk]
+7b80619e17 Version bump to SSV1.210916.078 [core/build_id.mk]
+1b4cf9fe57 Version bump to SSV1.210916.077 [core/build_id.mk]
+4641ababf7 Version bump to SSV1.210916.076 [core/build_id.mk]
+e1fe5c7e66 Version bump to SSV1.210916.075 [core/build_id.mk]
+1719e91f17 Version bump to SSV1.210916.074 [core/build_id.mk]
+84be9c3bb8 Version bump to SSV1.210916.073 [core/build_id.mk]
+eeba391d8b Version bump to SSV1.210916.072 [core/build_id.mk]
+f600b27e32 Version bump to SSV1.210916.071 [core/build_id.mk]
+12aa0f0bd1 Version bump to SSV1.210916.070 [core/build_id.mk]
+7840dae7ef Version bump to SSV1.210916.069 [core/build_id.mk]
+5577b40e1d Version bump to SSV1.210916.068 [core/build_id.mk]
+6c8bcbe1dc Version bump to SSV1.210916.067 [core/build_id.mk]
+2332e70e51 Version bump to SSV1.210916.066 [core/build_id.mk]
+66c54c569f Version bump to SSV1.210916.065 [core/build_id.mk]
+f24a9e75ee Version bump to SSV1.210916.064 [core/build_id.mk]
+702f8cce32 Version bump to SSV1.210916.063 [core/build_id.mk]
+55e26e0ed5 Version bump to SSV1.210916.062 [core/build_id.mk]
+fd9c6eef95 Version bump to SSV1.210916.061 [core/build_id.mk]
+0dc026a5ec Version bump to SSV1.210916.060 [core/build_id.mk]
+90de1a6466 Version bump to SSV1.210916.059 [core/build_id.mk]
+ad5c10812e Version bump to SSV1.210916.058 [core/build_id.mk]
+71f8424c28 Version bump to SSV1.210916.057 [core/build_id.mk]
+b3859a922b Version bump to SSV1.210916.056 [core/build_id.mk]
+27a625629f Version bump to SSV1.210916.055 [core/build_id.mk]
+311145b92e Version bump to SSV1.210916.054 [core/build_id.mk]
+c23ca43573 Version bump to SSV1.210916.053 [core/build_id.mk]
+f6d99e9112 Version bump to SSV1.210916.052 [core/build_id.mk]
+6f6a41636b Version bump to SSV1.210916.051 [core/build_id.mk]
+c866c51468 Version bump to SSV1.210916.050 [core/build_id.mk]
+ab4cb02845 Version bump to SSV1.210916.049 [core/build_id.mk]
+3afa11f99c Version bump to SSV1.210916.048 [core/build_id.mk]
+97d398af37 Version bump to SSV1.210916.047 [core/build_id.mk]
+2e3d061571 Version bump to SSV1.210916.046 [core/build_id.mk]
+e50d5df584 Version bump to SSV1.210916.045 [core/build_id.mk]
+22e390b235 Version bump to SSV1.210916.044 [core/build_id.mk]
+0eed992f12 Version bump to SSV1.210916.043 [core/build_id.mk]
+78b0efb91d Version bump to SSV1.210916.042 [core/build_id.mk]
+7d2d11be7e Version bump to SSV1.210916.041 [core/build_id.mk]
+a95a5c2804 Version bump to SSV1.210916.040 [core/build_id.mk]
+00d8a10a1f Version bump to SSV1.210916.039 [core/build_id.mk]
+6e25e35b58 Version bump to SSV1.210916.038 [core/build_id.mk]
+8e1f593666 Version bump to SSV1.210916.037 [core/build_id.mk]
+42942b4443 Version bump to SSV1.210916.036 [core/build_id.mk]
+7d3a09ebba Version bump to SSV1.210916.035 [core/build_id.mk]
+1b642e924d Version bump to SSV1.210916.034 [core/build_id.mk]
+0309a12c06 Version bump to SSV1.210916.033 [core/build_id.mk]
+7669ba7793 Version bump to SSV1.210916.032 [core/build_id.mk]
+77082515b5 Version bump to SSV1.210916.031 [core/build_id.mk]
+44370de4da Version bump to SSV1.210916.030 [core/build_id.mk]
+769dc47c77 Version bump to SSV1.210916.029 [core/build_id.mk]
+4f16073cde Version bump to SSV1.210916.028 [core/build_id.mk]
+0cd552cee2 Version bump to SSV1.210916.027 [core/build_id.mk]
+54b0a587cb Version bump to SSV1.210916.026 [core/build_id.mk]
+7aa02877dd Version bump to SSV1.210916.025 [core/build_id.mk]
+0f741d029f Version bump to SSV1.210916.024 [core/build_id.mk]
+371a765a8c Version bump to SSV1.210916.023 [core/build_id.mk]
+5168b0886f Version bump to SSV1.210916.022 [core/build_id.mk]
+a49c79f16f Version bump to SSV1.210916.021 [core/build_id.mk]
+b1d4edd2c1 Version bump to SSV1.210916.020 [core/build_id.mk]
+e50321372d Version bump to SSV1.210916.019 [core/build_id.mk]
+1b130aecb7 Version bump to SSV1.210916.018 [core/build_id.mk]
+697ad60cf5 Version bump to SSV1.210916.017 [core/build_id.mk]
+49291167be Version bump to SSV1.210916.016 [core/build_id.mk]
+78b5e11ad7 Version bump to SSV1.210916.015 [core/build_id.mk]
+2687d18ea6 Version bump to SSV1.210916.014 [core/build_id.mk]
+f56d8bc503 Version bump to SSV1.210916.013 [core/build_id.mk]
+f142b2c6dc Version bump to SSV1.210916.012 [core/build_id.mk]
+88b16889a7 Version bump to SSV1.210916.011 [core/build_id.mk]
+14c6bd0b27 Version bump to SSV1.210916.010 [core/build_id.mk]
+59b035fe99 Version bump to SSV1.210916.009 [core/build_id.mk]
+c0b29d3520 Version bump to SSV1.210916.008 [core/build_id.mk]
+33e13e90fd Version bump to SSV1.210916.007 [core/build_id.mk]
+f31931df00 Version bump to SSV1.210916.006 [core/build_id.mk]
+633b8c7f9f Version bump to SSV1.210916.005 [core/build_id.mk]
+7edc8585da Version bump to SSV1.210916.004 [core/build_id.mk]
+73ab3654be Version bump to SSV1.210916.003 [core/build_id.mk]
+59651fdb69 Version bump to SSV1.210916.002 [core/build_id.mk]
+0be212e3ca Version bump to SP1A.210812.016 [core/build_id.mk]
+
+project cts/
+dc0577993cc Merge cherrypicks of ['googleplex-android-review.googlesource.com/23917932'] into security-aosp-sc-release.
+439eeb3b872 Change open jpeg folder name
+
+project device/google/barbet/
+af8dc77 Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+aa38c1c Update Barbet SVN to 10
+
+project device/google/bonito/
+89eb5957 Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+0f6b6c18 Update Bonito SVN to 47
+
+project device/google/coral/
+27531f04 Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+97c58a17 Update Coral SVN to 46
+
+project device/google/crosshatch/
+b5ead909 Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+767299e8 Update Crosshatch SVN to 59
+
+project device/google/redbull/
+87bb6321 Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+1f1dd9be Update Redbull SVN to 35
+b53cd6a8 Remove ConfirmationUI HAL from manifest
+
+project device/google/sunfish/
+7565b7ce Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+09821660 Update Sunfish SVN to 31
+
+project external/aac/
+a728554 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23497466'] into security-aosp-sc-release.
+4c0620c Increase patchParam array size by one and fix out-of-bounce write in resetLppTransposer().
+2015446 Merge cherrypicks of [17615057] into security-aosp-sc-release.
+aa62c29 Reject invalid out of band config in transportDec_OutOfBandConfig() and skip re-allocation.
+
+project external/angle/
+971aa75fff Merge cherrypicks of ['googleplex-android-review.googlesource.com/20874827'] into security-aosp-sc-release.
+28cbea4646 Fix a bug when getting a gzip header extra field with inflate().
+
+project external/dtc/
+962cc6c Merge cherrypicks of [20024810] into security-aosp-sc-release.
+91e997e libfdt: fdt_path_offset_namelen: Reject empty paths
+ea88d6c Merge cherrypicks of [19606333] into security-aosp-sc-release.
+ba6233a Fix integer wrap sanitisation.
+67ece0c Merge cherrypicks of [19527650] into security-aosp-sc-release.
+82a1119 FROMGIT: libfdt: fdt_offset_ptr(): Fix comparison warnings
+
+project external/expat/
+580c870e Merge cherrypicks of ['ag/20497951'] into security-aosp-sc-release.
+ac7aa55a [CVE-2022-43680] Fix overeager DTD destruction (fixes #649)
+beaf92f7 Merge cherrypicks of [18587609, 18724851, 18723665, 18934601] into security-aosp-sc-release.
+166ddfe0 Prevent more integer overflows
+a2b37418 Prevent integer overflow in function doProlog
+1ba8f7df Prevent XML_GetBuffer signed integer overflow
+41138cb9 Prevent integer overflow in copyString
+
+project external/freetype/
+5bdb8003d Merge cherrypicks of ['googleplex-android-review.googlesource.com/23077071'] into security-aosp-sc-release.
+597c3f6c8 Cherrypick following three changes
+ad0fc10e9 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22327787'] into security-aosp-sc-release.
+8b3dcc022 DO NOT MERGE - Cherry-pick two upstream changes
+
+project external/libavc/
+b1d5866 Merge cherrypicks of [16407185] into security-aosp-sc-release.
+479c2ea Move slice increments after completing header parsing
+
+project external/libxml2/
+b455d539 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23102381'] into security-aosp-sc-release.
+f8016cd3 malloc-fail: Fix OOB read after xmlRegGetCounter
+
+project external/pdfium/
+c82db5bf5 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23917931'] into security-aosp-sc-release.
+72f2f60e3 Update pdfium to Chrome 114.0.5735.130 pdfium
+
+project external/sonivox/
+859c341 Merge cherrypicks of ['googleplex-android-review.googlesource.com/26365428'] into security-aosp-sc-release.
+3f79857 fix buffer overrun in eas_wtengine
+
+project external/tremolo/
+0b12cbf Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+c9a3d83 handle cases where order isn't a multiple of dimension
+
+project external/webp/
+dc7f7bbe Merge cherrypicks of ['googleplex-android-review.googlesource.com/24715931'] into security-aosp-sc-release.
+d4e9e78f update to v1.2.0-8-g20ceff7e
+
+project external/zlib/
+95395ae Merge cherrypicks of ['ag/20545969'] into security-aosp-sc-release.
+a8c9ad1 Fix a bug when getting a gzip header extra field with inflate().
+
+project frameworks/av/
+d6a5c048f4 Merge cherrypicks of ['googleplex-android-review.googlesource.com/26596790'] into security-aosp-sc-release.
+deae26e7f8 Revert "Audio policy: anonymize Bluetooth MAC addresses"
+8fc7add667 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25061619', 'googleplex-android-review.googlesource.com/25545533', 'googleplex-android-review.googlesource.com/25575421'] into security-aosp-sc-release.
+a52c14a5b4 Fix out of bounds read and write in onQueueFilled in outQueue
+8f3bc8be16 SoftVideoDecodeOMXComponent: validate OMX params for dynamic HDR
+462689f06f Validate OMX Params for VPx encoders
+83e13f7569 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25444044', 'googleplex-android-review.googlesource.com/25262200'] into security-aosp-sc-release.
+dc8fd0fd25 Audio policy: anonymize Bluetooth MAC addresses
+d484868ea5 Update mtp packet buffer
+c342a8d21a Merge cherrypicks of ['googleplex-android-review.googlesource.com/24879207', 'googleplex-android-review.googlesource.com/25096450'] into security-aosp-sc-release.
+7bf2507adf Fix convertYUV420Planar16ToY410 overflow issue for unsupported cropwidth.
+74880c6156 Codec2BufferUtils: Use cropped dimensions in RGB to YUV conversion
+d8fed53fd4 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25156067'] into security-aosp-sc-release.
+6bde746cad Revert "NdkMedia: fix android.mediav2.cts.CodecEncoderSurfaceTest failed."
+b3cff0c137 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24679067', 'googleplex-android-review.googlesource.com/23454402', 'googleplex-android-review.googlesource.com/24394717', 'googleplex-android-review.googlesource.com/24944816'] into security-aosp-sc-release.
+4c4e383a16 NdkMedia: fix android.mediav2.cts.CodecEncoderSurfaceTest failed.
+302959a3f6 Condition background record restriction on Sdk
+b4910062d5 Correct attribution source for MMAP thread
+cfd4960f97 httplive: fix use-after-free
+6a6dcffc06 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24303960', 'googleplex-android-review.googlesource.com/24296960', 'googleplex-android-review.googlesource.com/24433390'] into security-aosp-sc-release.
+911ecf2f0a Initialise VPS buffer to NULL in constructor
+38888a8b8b Fix heap-use-after-free issue flagged by fuzzer test.
+c9558b05ad Fix for heap buffer overflow issue flagged by fuzzer test.
+b1c4062937 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23914016'] into security-aosp-sc-release.
+9f042d16d4 Fix Segv on unknown address error flagged by fuzzer test.
+6ede7caa4f Merge cherrypicks of ['googleplex-android-review.googlesource.com/23243340'] into security-aosp-sc-release.
+0188c4ff58 Force unsilence record clients on startInput
+9b896fe99a Merge cherrypicks of ['googleplex-android-review.googlesource.com/22348680'] into security-aosp-sc-release.
+31959cf87b Fix NuMediaExtractor::readSampleData buffer Handling
+c75fdf696f Merge cherrypicks of ['ag/20758528'] into security-aosp-sc-release.
+b7f5c807b8 C2SurfaceSyncObj: prevent OOB read in Import
+3ffde8ab6d Merge cherrypicks of ['ag/20493625', 'ag/20540194', 'ag/20521188', 'ag/20612019'] into security-aosp-sc-release.
+ec942b17a9 move MediaCodec metrics processing to looper thread
+323e700ba8 RESTRICT AUTOMERGE Use static token for myAttributionSource in ServiceUtilities
+a41382ef37 Fix Out of Bounds Read in AAVCAssembler
+34804c2cce audio: fix missing package name in attribution source
+b0f17ca526 Merge cherrypicks of [20068332] into security-aosp-sc-release.
+e8e5514ec1 libstagefright: fix heap use after free issue
+7fe5db519a Merge cherrypicks of [19008482] into security-aosp-sc-release.
+caab01e0b2 [Fix vulnerability] setSecurityLevel in clearkey
+a412f0ef1e Merge cherrypicks of [19419128, 19459610] into security-aosp-sc-release.
+e194faf030 Add missing bounds checks
+21b89e6f71 Cache MMAP client silenced state.
+4754e9aab2 Merge cherrypicks of [18993507] into security-aosp-sc-release.
+c8031fb745 Fix Out of Bounds read in TextDescriptions.cpp
+5fe6a96c4e Merge cherrypicks of [18492389] into security-aosp-sc-release.
+3b933840bc Avoid read out of bounds
+c7456ee4ac Merge cherrypicks of [17806584] into security-aosp-sc-release.
+db5ede0ade C2Allocator: protetct memory mappings from race condition
+209a68a4d5 Merge cherrypicks of [16622627, 16790556] into security-aosp-sc-release.
+65d56fcac9 Safe parsing of HEIF framecount information
+cf93bb4cd8 C2AllocatorIon:protect mMappings using mutex
+506cf6cc03 Merge cherrypicks of [16230693, 16406360, 16304601] into security-aosp-sc-release.
+edc96fde39 Prevent out-of-bounds read
+7a46d7fda1 Safetynet logging for b/204445255
+6b2955d06f Better buffer-overrun prevention
+03828e65a9 Merge cherrypicks of [16187628] into security-aosp-sc-release.
+901e92ecc2 SimpleDecodingSource:Prevent OOB write in heap mem
+3bd7bf1660 Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+9a2b9f9b41 C2SoftMp3Dec: fix OOB write in output buffer
+d846f082fc Fix heap-buffer-overflow in MPEG4Extractor
+
+project frameworks/base/
+e70024c033b8 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20312179', 'googleplex-android-review.googlesource.com/25119905', 'googleplex-android-review.googlesource.com/26225135', 'googleplex-android-review.googlesource.com/25522017', 'googleplex-android-review.googlesource.com/26460033', 'googleplex-android-review.googlesource.com/26151073', 'googleplex-android-review.googlesource.com/26297402', 'googleplex-android-review.googlesource.com/23400867', 'googleplex-android-review.googlesource.com/26720245', 'googleplex-android-review.googlesource.com/26666072', 'googleplex-android-review.googlesource.com/26766889', 'googleplex-android-review.googlesource.com/26721087', 'googleplex-android-review.googlesource.com/26693133', 'googleplex-android-review.googlesource.com/26708954', 'googleplex-android-review.googlesource.com/26686490', 'googleplex-android-review.googlesource.com/26192562'] into security-aosp-sc-release.
+b68b257d56a8 [CDM][CMD] Check permissions for CDM shell commands
+748055291460 Update media visibility on lock screen
+86b747d725d6 [RESTRICT AUTOMERGE] AccessibilityManagerService: remove uninstalled services from enabled list after service update.
+9fcd2070f22c Resolve message/conversation image Uris with the correct user id
+e25a0e394bbf Check hidden API exemptions
+74afbb05ca08 [DO NOT MERGE][Autofill Framework] Add in check for intent filter when setting/updating service
+df49e0e3083b [DO NOT MERGE][CDM] Fix a security issue that allow 3p apps to skip prompt by setSkipPrompt
+3457d82f8e26 Add more checkKeyIntent checks to AccountManagerService.
+cfbd69256459 Fix vulnerability in AttributionSource due to incorrect Binder call
+6835cb679511 Fix error handling for non-dynamic permissions
+f16cc1135b41 Hide window immediately if itself doesn't run hide animation
+a9ee27930682 Check for NLS bind permission when rebinding services
+c0d5f75e0130 Added throttle when reporting shortcut usage
+3cc021bf608f Verify URI permission for channel sound update from NotificationListenerService
+de4998f0e646 DO NOT MERGE: Fix ActivityManager#killBackgroundProcesses permissions
+64ddf442eb06 DO NOT MERGE: ActivityManager#killBackgroundProcesses can kill caller's own app only
+b82815e26661 Merge cherrypicks of ['googleplex-android-review.googlesource.com/26596788', 'googleplex-android-review.googlesource.com/26596789'] into security-aosp-sc-release.
+dfd83358985a Revert "Refactor the SADeviceState to AdiDeviceState"
+dc0ca0658731 Revert "AudioService: anonymize Bluetooth MAC addresses"
+6bb2a930d76b Merge cherrypicks of ['googleplex-android-review.googlesource.com/25102282'] into security-aosp-sc-release.
+0c095c365ede Prioritize system toasts
+23f9c110c35f Merge cherrypicks of ['googleplex-android-review.googlesource.com/25714995', 'googleplex-android-review.googlesource.com/25826644', 'googleplex-android-review.googlesource.com/25948484', 'googleplex-android-review.googlesource.com/26135753'] into security-aosp-sc-release.
+032bee6dc118 Fix security vulnerability that creates user with no restrictions when accountOptions are too long.
+b733655a3596 isUserInLockDown can be true when there are other strong auth requirements
+3cb2201b7f36 Don't store invalid pkgs when migrating filters
+ad990e8f8164 RESTRICT AUTOMERGE Added limitations for attributions to handle invalid cases
+a780a8d0777c Merge cherrypicks of ['googleplex-android-review.googlesource.com/24112147', 'googleplex-android-review.googlesource.com/25676760', 'googleplex-android-review.googlesource.com/25716266', 'googleplex-android-review.googlesource.com/25787790'] into security-aosp-sc-release.
+2c236cde5505 Close AccountManagerService.session after timeout.
+d68cab5ac1aa Disallow system apps to be installed/updated as instant.
+65bd134b0a82 Validate package names passed to the installer.
+74b03835a7fa Resolve custom printer icon boundary exploit.
+3b7fa771d715 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24081613', 'googleplex-android-review.googlesource.com/25101932', 'googleplex-android-review.googlesource.com/25064728', 'googleplex-android-review.googlesource.com/23183708', 'googleplex-android-review.googlesource.com/24696686', 'googleplex-android-review.googlesource.com/25387217', 'googleplex-android-review.googlesource.com/25286113', 'googleplex-android-review.googlesource.com/25286114'] into security-aosp-sc-release.
+660d7333974e AudioService: anonymize Bluetooth MAC addresses
+8ce167cccb47 Refactor the SADeviceState to AdiDeviceState
+728c090487e3 Enforce persisted snoozed notifications limits
+80a703fae0a2 [RESTRICT AUTOMERGE] Check permission of Autofill icon URIs
+dbcd04267cbc Restrict activity launch when caller is running in the background
+ad5197fc5469 Unbind TileService onNullBinding
+1175766123bf DO NOT MERGE: "Hide" /Android/data|obb|sanbox/ on shared storage
+1f818cc205d8 DO NOT MERGE Disallow Wallpaper service to launch activity from background.
+db0e3c4a9ca4 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22621774', 'googleplex-android-review.googlesource.com/24413226', 'googleplex-android-review.googlesource.com/24993589', 'googleplex-android-review.googlesource.com/24867202', 'googleplex-android-review.googlesource.com/24665127', 'googleplex-android-review.googlesource.com/25175743', 'googleplex-android-review.googlesource.com/25238611', 'googleplex-android-review.googlesource.com/25119905', 'googleplex-android-review.googlesource.com/25208516'] into security-aosp-sc-release.
+7e50754a7c91 Add null check for media metadata
+17d11d7be1d3 DO NOT MERGE: Fix ActivityManager#killBackgroundProcesses permissions
+ec851826a32b Fix vulnerability that allowed attackers to start arbitary activities
+d49662560e36 RESTRICT AUTOMERGE Log to detect usage of whitelistToken when sending non-PI target
+b9323252fabf [SB][Privacy] Fetch current active appops on startup.
+9ccf002e8817 [CDM] Validate component name length before requesting notification access.
+65c5db5264ec Truncate user data to a limit of 500 characters
+72f408c288c2 DO NOT MERGE Ensure finish lockscreen when usersetup incomplete
+4909ca556d61 Dismiss keyguard when simpin auth'd and...
+cb74878e9347 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23905843', 'googleplex-android-review.googlesource.com/23918399', 'googleplex-android-review.googlesource.com/24420396', 'googleplex-android-review.googlesource.com/20064766', 'googleplex-android-review.googlesource.com/24046929', 'googleplex-android-review.googlesource.com/24573550', 'googleplex-android-review.googlesource.com/24339446', 'googleplex-android-review.googlesource.com/23623415', 'googleplex-android-review.googlesource.com/24605805', 'googleplex-android-review.googlesource.com/24182288', 'googleplex-android-review.googlesource.com/24761005', 'googleplex-android-review.googlesource.com/24058898', 'googleplex-android-review.googlesource.com/24805807', 'googleplex-android-review.googlesource.com/22465294', 'googleplex-android-review.googlesource.com/24642267'] into security-aosp-sc-release.
+6fab80f14116 RESTRICT AUTOMERGE: Check URI permissions for resumable media artwork
+1857ee3fd7e7 Move startWatchingModeWithFlags to the native supported binder calls
+a6bf6bdef507 Updated: always show the keyguard on device lockdown
+912f0f66f308 Adding in verification of calling UID in onShellCommand
+25240a9c6473 Revert "On device lockdown, always show the keyguard"
+3e64d4d94100 Validate userId when publishing shortcuts
+81496664cfc3 Use readUniqueFileDescriptor in incidentd service
+d85791da431f Restrict number of shortcuts can be added through addDynamicShortcuts
+2b36798cc5c9 Require permission to unlock keyguard
+d76c64bca7c0 Disable priority conversation widget for secondary users
+70cd64efdb57 Validate URI-based shortcut icon at creation time.
+ae1a63390d4b RESTRICT AUTOMERGE: Drop invalid data.
+92d2e8793938 Visit Uris related to Notification style extras
+6726ac559618 Fix bypass BAL via `requestGeofence`
+84221f9a1387 Visit Uris added by WearableExtender
+1f5394dee6bb Merge cherrypicks of ['googleplex-android-review.googlesource.com/23983543', 'googleplex-android-review.googlesource.com/24323875', 'googleplex-android-review.googlesource.com/24310277', 'googleplex-android-review.googlesource.com/24424817'] into security-aosp-sc-release.
+8253d2f95df2 [SettingsProvider] verify ringtone URI before setting
+a65cc9961ed4 Use type safe API of readParcelableArray
+a3fe1c4ae925 [DO NOT MERGE] Check caller's uid in backupAgentCreated callback
+f4f3013318be DO NOT MERGE Fix BAL via notification.publicVersion
+8668fcd1dc8f Merge cherrypicks of ['googleplex-android-review.googlesource.com/24405933'] into security-aosp-sc-release.
+2f91627a8be9 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21027119', 'googleplex-android-review.googlesource.com/23769813', 'googleplex-android-review.googlesource.com/23877020', 'googleplex-android-review.googlesource.com/23785419', 'googleplex-android-review.googlesource.com/23846753', 'googleplex-android-review.googlesource.com/23835332', 'googleplex-android-review.googlesource.com/23423703', 'googleplex-android-review.googlesource.com/24057913', 'googleplex-android-review.googlesource.com/23982204', 'googleplex-android-review.googlesource.com/24301239', 'googleplex-android-review.googlesource.com/24272818', 'googleplex-android-review.googlesource.com/24325301'] into security-aosp-sc-release.
+146b2fd9b0a6 Revert "Dismiss keyguard when simpin auth'd and..."
+883923c40b88 Add placeholder when media control title is blank
+438fabce7160 [RESTRICT AUTOMERGE] Ignore small source rect hint
+d7e13c90f9b3 RESTRICT AUTOMERGE: SettingsProvider: exclude secure_frp_mode from resets
+3377062c467c Add userId check before loading icon in Device Controls
+8bad7524a152 Fixing DatabaseUtils to detect malformed UTF-16 strings
+cca6aca97c4b Disallow loading icon from content URI to PipMenu
+0909dc26a3c5 [DO NOT MERGE] Verify URI Permissions in Autofill RemoteViews
+a20a075547f7 Do not share key mappings with JNI object
+1a47e38d0ec1 Verify URI permissions for EXTRA_REMOTE_INPUT_HISTORY_ITEMS.
+d5470c988cd6 Import translations. DO NOT MERGE ANYWHERE
+a934acdf8b22 RingtoneManager: verify default ringtone is audio
+22c22a2a077f Merge cherrypicks of ['googleplex-android-review.googlesource.com/20341111', 'googleplex-android-review.googlesource.com/23516871', 'googleplex-android-review.googlesource.com/23477773', 'googleplex-android-review.googlesource.com/23709052', 'googleplex-android-review.googlesource.com/23905843', 'googleplex-android-review.googlesource.com/23883016', 'googleplex-android-review.googlesource.com/23861644'] into security-aosp-sc-release.
+8538ea1c75f1 Improve user handling when querying for resumable media
+9d4a401222fe Update AccountManagerService checkKeyIntentParceledCorrectly.
+54959a7d14b3 Forbid granting access to NLSes with too-long component names
+412d9b6ab479 Ignore virtual presentation windows - RESTRICT AUTOMERGE
+14da8e7df8c1 [DO NOT MERGE] Update quickshare intent rather than recreating
+5caa51d1745a DO NOT MERGE Grant carrier privileges if package has carrier config access.
+7a8d3e3d188d Merge cherrypicks of ['googleplex-android-review.googlesource.com/23891747'] into security-aosp-sc-release.
+fc5ead8698ac DO NOT MERGE Revert "Verify URI permissions for EXTRA_REMOTE_INPUT_HISTORY_ITEMS."
+2d3bf39155ce Merge cherrypicks of ['googleplex-android-review.googlesource.com/20312179', 'googleplex-android-review.googlesource.com/22915959', 'googleplex-android-review.googlesource.com/22599577', 'googleplex-android-review.googlesource.com/22894946', 'googleplex-android-review.googlesource.com/23033896', 'googleplex-android-review.googlesource.com/23089588', 'googleplex-android-review.googlesource.com/23331796', 'googleplex-android-review.googlesource.com/23410117', 'googleplex-android-review.googlesource.com/23210299', 'googleplex-android-review.googlesource.com/23352460', 'googleplex-android-review.googlesource.com/23429137', 'googleplex-android-review.googlesource.com/23386456', 'googleplex-android-review.googlesource.com/23430378', 'googleplex-android-review.googlesource.com/23542103', 'googleplex-android-review.googlesource.com/23436009', 'googleplex-android-review.googlesource.com/23517939', 'googleplex-android-review.googlesource.com/23592330'] into security-aosp-sc-release.
+44004ea2218a Merge "Resolve StatusHints image exploit across user." into rvc-dev am: 543e6febbf am: 8c3d465b5e
+b639bf98be9e Verify URI permissions in MediaMetadata
+8208665ee84a Remove unnecessary padding code
+ec2c95628742 Merge "Use Settings.System.getIntForUser instead of getInt to make sure user specific settings are used" into rvc-dev am: d198f5165c am: 886d492c8c
+a458349ccaa8 Visit URIs in themed remoteviews icons.
+f2dcaa728393 Fix PrivacyChip not visible issue
+db5bc7bb0517 Check URIs in sized remote views.
+662c5030423d Validate ComponentName for MediaButtonBroadcastReceiver
+c452644f56da Implement visitUris for RemoteViews ViewGroupActionAdd.
+8b8f85c9d8dd Check URIs in notification public version.
+8ae9d480193f Preserve flags for non-runtime permissions upon package update.
+f88afd13d35e On device lockdown, always show the keyguard
+b3b9f6d9e5fe Ensure policy has no absurdly long strings
+350b8400a94e Verify URI permissions for notification shortcutIcon.
+ec3547b15e7a Do not load drawable for wallet card if the card image icon iscreated with content URI.
+b7886f31bf10 ActivityManagerService: Allow openContentUri from vendor/system/product.
+5f446d2ce101 DO NOT MERGE: ActivityManager#killBackgroundProcesses can kill caller's own app only
+5c817d3f5d5d Merge cherrypicks of ['googleplex-android-review.googlesource.com/20219552', 'googleplex-android-review.googlesource.com/20946190', 'googleplex-android-review.googlesource.com/20460002', 'googleplex-android-review.googlesource.com/22390145', 'googleplex-android-review.googlesource.com/22616881', 'googleplex-android-review.googlesource.com/21327525', 'googleplex-android-review.googlesource.com/22621774', 'googleplex-android-review.googlesource.com/22787457', 'googleplex-android-review.googlesource.com/22905557', 'googleplex-android-review.googlesource.com/22895638'] into security-aosp-sc-release.
+8ad6cabe2572 Visit URIs in landscape/portrait custom remote views.
+bfbc4b6fdb4b Truncate ShortcutInfo Id
+f2d7a8dfcaa1 Verify URI permissions for EXTRA_REMOTE_INPUT_HISTORY_ITEMS.
+1707468a608a Dismiss keyguard when simpin auth'd and...
+6df4d818dfb1 Only allow NEW_TASK flag when adjusting pending intents
+9399ed3281d1 Grant URI permissions to the CallStyle-related ones
+b8fc2998ebdf Limit the number of supported v1 and v2 signers
+76735553e9d3 Sanitize VPN label to prevent HTML injection
+d276d2655bc7 Revert "Ensure that only SysUI can override pending intent launch flags"
+5a83ccf3573c Ensure that only SysUI can override pending intent launch flags
+ea2119031af3 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21564420', 'googleplex-android-review.googlesource.com/21610895', 'googleplex-android-review.googlesource.com/22096945', 'googleplex-android-review.googlesource.com/22142967', 'googleplex-android-review.googlesource.com/21614620', 'googleplex-android-review.googlesource.com/20026091', 'googleplex-android-review.googlesource.com/22291002', 'googleplex-android-review.googlesource.com/22311042', 'googleplex-android-review.googlesource.com/22312923', 'googleplex-android-review.googlesource.com/21801858'] into security-aosp-sc-release.
+4ea4790236f6 Prevent sharesheet from previewing unowned URIs
+ab5a0f9b547d [RESTRICT AUTOMERGE] Add BubbleMetadata detection to block FSI
+a3dbe8ebbfd3 Enforce DevicePolicyManager.setUserControlDisabledPackages in AppStandbyController
+65d8563b393b Allow filtering of services
+5bf78f58defd Handle invalid data during job loading.
+d419c582ef4c Check key intent for selectors and prohibited flags
+ac8b5090a4d3 Grant MANAGE_USERS access to Traceur
+da0a3a640d3c [DO NOT MERGE] Prevent RemoteViews crashing SystemUi
+ff87492900bc [DO NOT MERGE] Wait for preloading images to complete before inflating notifications
+98be18da4bc7 Remove Activity if it enters PiP without window
+11fc2a418321 Merge cherrypicks of ['googleplex-android-review.googlesource.com/18029563', 'googleplex-android-review.googlesource.com/21160027', 'googleplex-android-review.googlesource.com/21266989', 'googleplex-android-review.googlesource.com/21238189', 'googleplex-android-review.googlesource.com/21373610', 'googleplex-android-review.googlesource.com/21183615', 'googleplex-android-review.googlesource.com/21655734', 'googleplex-android-review.googlesource.com/21611508', 'googleplex-android-review.googlesource.com/21740239', 'googleplex-android-review.googlesource.com/21574889', 'googleplex-android-review.googlesource.com/21801858'] into security-aosp-sc-release.
+6843d15ce5e0 Limit the number of shortcuts per app that can be retained by system
+304d3f44acc4 Trim strings added to persistent snoozed notification storage.
+11e7509eac14 Make Activites touch opaque - DO NOT MERGE
+344b1089be78 Revert "Make Activites touch opaque - DO NOT MERGE"
+702cbce9997e enforce stricter rules when registering phoneAccounts
+3dfbbae2d6c1 Uri: check authority and scheme as part of determining URI path
+6b5d07da088e Checks if AccessibilityServiceInfo is within parcelable size.
+c2255f2af3b4 [RESTRICT AUTOMERGE][pm] still allow debuggable for system app downgrades
+747c357a4221 [RESTRICT AUTOMERGE][pm] prevent system app downgrades of versions lower than preload
+a5847a23bf04 Make Activites touch opaque - DO NOT MERGE
+359056b2a446 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21655734'] into security-aosp-sc-release.
+b6154599421f Revert "Make Activites touch opaque - DO NOT MERGE"
+a3bcbb10f305 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20241730', 'googleplex-android-review.googlesource.com/20319635', 'googleplex-android-review.googlesource.com/20859465', 'googleplex-android-review.googlesource.com/20912010', 'googleplex-android-review.googlesource.com/20640805', 'googleplex-android-review.googlesource.com/20900545', 'googleplex-android-review.googlesource.com/20835978', 'googleplex-android-review.googlesource.com/20924823', 'googleplex-android-review.googlesource.com/21095328', 'googleplex-android-review.googlesource.com/21129068', 'googleplex-android-review.googlesource.com/21013708'] into security-aosp-sc-release.
+359c73df6564 [RESTRICT AUTOMERGE] Fix bypass BG-FGS and BAL via package manager APIs
+bc4eba0bd83b Fix bypass BAL via LocationManager.requestFlush
+d1eb5f5d345d Add a limit on channel group creation
+6ec9728f6043 [RESTRICT AUTOMERGE] Strip part of the activity info of another uid if no privilege
+e9f458c52e9c [DO NOT MERGE] Backport BAL restrictions from T to S, this blocks apps from using Alarm Manager to bypass BAL restrictions.
+975008fc4401 Encode Intent scheme when serializing to URI string RESTRICT AUTOMERGE
+2e00a2fa1158 Checking if package belongs to UID before registering broadcast receiver
+6958318cfee1 Fix checkKeyIntentParceledCorrectly's bypass
+d22b37f5fb77 Revert "[RESTRICT AUTOMERGE] Trim the activity info of another uid if no privilege"
+9d0c0e43619d DO NOT MERGE: Context#startInstrumentation could be started from SHELL only now.
+fc5ab237168b [RESTRICT AUTOMERGE] Trim the activity info of another uid if no privilege
+df0e9a6f6980 Merge cherrypicks of ['ag/18589618', 'ag/20191680', 'ag/20082616', 'ag/20482625', 'ag/20873545', 'ag/20946106'] into security-aosp-sc-release.
+f1fd3bd13a39 Revert "Ensure that only SysUI can override pending intent launch flags"
+9f7e3a00f7b3 Enforce MediaButtonReceiver ComponentName belongs to app
+3f11c41c53f1 Enforce MediaButtonReceiver extracted component name matches session package name
+08fc14d48959 Reconcile WorkSource parcel and unparcel code.
+7e3db0c1d14e Enable user graularity for lockdown mode
+ef613f625cd1 Move service initialization
+143adaa05788 Merge cherrypicks of ['ag/20859465'] into security-aosp-sc-release.
+9912bb1795fd Revert "[RESTRICT AUTOMERGE] Trim the activity info of another uid if no privilege"
+27db94d2ad11 Merge cherrypicks of ['ag/20346939'] into security-aosp-sc-release.
+c6f5d72cea12 Disable click on privacy chip before provision
+8f5f31cb0e66 Merge cherrypicks of ['ag/17666662', 'ag/18029563', 'ag/19748653', 'ag/19868479', 'ag/19911498', 'ag/20404654', 'ag/20406270', 'ag/20302364', 'ag/20541824', 'ag/20535026', 'ag/20521154'] into security-aosp-sc-release.
+2777165c17d8 RESTRICT AUTOMERGE Use chain start token in performOpTransaction
+560d3deedc46 Use rule package name in addAutomaticZenRule; specify "android" for all system apps
+876ae86c9fc2 Convert argument to intent in ChooseTypeAndAccountActivity
+c1c2efd3f7e6 [RESTRICT AUTOMERGE] Correct the behavior of ACTION_PACKAGE_DATA_CLEARED
+50f7af560c51 [DO NOT MERGE] Revert "Check rule package name in ZenModeHelper.addAutomaticRule"
+12ccd08c0a1b [DO NOT MERGE] Revert "Fix system zen rules by using owner package name if caller is system"
+0a1612dee7e3 [DO NOT MERGE] fpService#authWithPrompt uses correct user handle.
+fbb31134ac2f Fix system zen rules by using owner package name if caller is system
+3037af55ed28 Check rule package name in ZenModeHelper.addAutomaticRule
+cf56e7e2940e Make Activites touch opaque - DO NOT MERGE
+15b2c2981222 [DO NOT MERGE] Do not clear calling identify when using BiometricPrompt from FingerprintService.
+4bdc1bb0cea3 Merge cherrypicks of [18589618, 19970204, 19785208, 20123964, 20207735, 20215497, 20218918, 20029947, 20250994, 20241730, 20105848, 20210471, 20256127, 20191680, 20219552] into security-aosp-sc-release.
+d7206ac5466f Ensure that only SysUI can override pending intent launch flags
+53bf3f19f154 Fix sharing to another profile where an app has multiple targets
+e8ce3813772f Add protections against queueing a UsbRequest when the underlying UsbDeviceConnection is closed.
+0004ae99d325 RESTRICT AUTOMERGE Revoke SYSTEM_ALERT_WINDOW on upgrade past api 23
+6ff4989c3164 [RESTRICT AUTOMERGE] Trim the activity info of another uid if no privilege
+d80a9cd581b6 [RESTRICT AUTOMERGE][SettingsProvider] key size limit for mutating settings
+c0752b83d7a5 RESTRICT AUTOMERGE Validate permission tree size on permission update
+488687579a9f Backport missing permission check for querying main activity intent
+68d12f81475a [RESTRICT AUTOMERGE] [SettingsProvider] mem limit should be checked before settings are updated
+b2d7aa14f0f0 [DO NOT MERGE] Fix conditionId string trimming in AutomaticZenRule
+3ee73cd82ed4 Disable all A11yServices from an uninstalled package.
+0ff778875e15 Limit length and number of MIME types you can set
+dfe22064d6c3 Limit lengths of fields in Condition to a max length.
+23f37def92f6 Merge cherrypicks of [20404654, 20406270, 20406865, 20414805] into security-aosp-sc-release.
+e17ba4ff6d5b Revert "Make Activites touch opaque - DO NOT MERGE"
+ae5ead8d22d5 Revert "Limit lengths of fields in Condition to a max length."
+bd47421f9a1e [DO NOT MERGE] Revert "Check rule package name in ZenModeHelper.addAutomaticRule"
+d34de452ed1d [DO NOT MERGE] Revert "Fix system zen rules by using owner package name if caller is system"
+6e56ac5e4bcc Merge cherrypicks of [16740079, 18029563, 19336830, 19449015, 19570390, 19697196, 19815423, 19942600, 19970204, 19886855, 20026360, 19949706, 17637345, 19748987, 20013777, 20084465, 20051190, 20105519, 18818454, 19902682] into security-aosp-sc-release.
+eee64e56826e Validate package name passed to setApplicationRestrictions.
+583f87f33318 SurfaceControl: Add setDropInputMode api
+db92de2db19c Add safety checks on KEY_INTENT mismatch.
+5a173bdc4896 [DO NOT MERGE] Fix permanent denial of service via setComponentEnabledSetting
+8be40a86ee7a Lower per-app notificationchannel limit
+ccd82652d1db [Do Not Merge] Ignore malformed shortcuts
+d9d78c2aa8fe Prevent exfiltration of system files via avatar picker.
+723936bc7c63 [DO NOT MERGE] Update window with FLAG_SECURE when bouncer is showing
+65fdb1111cb8 [RESTRICT AUTOMERGE] Allow activity to be reparent while allowTaskReparenting is applied
+8d31bc04fb92 Fix a security issue in app widget service.
+563c3ab219b9 Fix NPE
+174bec5165da Limit lengths of fields in Condition to a max length.
+029b7edb3c03 [pm] forbid deletion of protected packages
+5832af28806d Include all enabled services when FEEDBACK_ALL_MASK.
+7b03ed854e59 Limit the size of NotificationChannel and NotificationChannelGroup
+6b560dcc92f5 Prevent non-admin users from deleting system apps.
+ea4adc194778 Revert "Prevent exfiltration of system files via user image settings."
+c85e5d3ff38a Revert "Prevent non-admin users from deleting system apps."
+205efdcb27b0 Make Activites touch opaque - DO NOT MERGE
+d85f41a51fcf Drop input for toast and child surfaces
+baf1d6dd214a Merge cherrypicks of [19205942] into security-aosp-sc-release.
+473c659d5d78 Limit the number of concurrently snoozed notifications
+7beefdb48795 Merge cherrypicks of [19641101] into security-aosp-sc-release.
+20717edd3514 [DO NOT MERGE] Do not dismiss keyguard after SIM PUK unlock
+65f8fa402b96 Merge cherrypicks of [16740079, 18298311, 18297726, 17324202, 19369770, 19518946, 19608552, 19500370, 19748653, 19816496, 19868479, 19341529, 18818454] into security-aosp-sc-release.
+fb883d58b02e Make sure parallel broadcasts enforce excluded permissions
+154f8e30caec Fix system zen rules by using owner package name if caller is system
+0582b3159bc1 Trim any long string inputs that come in to AutomaticZenRule
+534f39fb6500 Check rule package name in ZenModeHelper.addAutomaticRule
+ea3a16f52075 DO NOT MERGE Fix auto-grant of AR runtime permission if device is upgrading from pre-Q
+a656cd3d4ac6 Do not send AccessibilityEvent if notification is for different user.
+85e73625c204 [RESTRICT AUTOMERGE] Do not send new Intent to non-exported activity when navigateUpTo
+1620cf41b7ba switch TelecomManager List getters to ParceledListSlice
+5a4efc34837f DO NOT MERGE Move accountname and typeName length check from Account.java to AccountManagerService.
+bbf5681e1759 Update ServiceState broadcast for location permissions
+2ed0d9f1ce6a Add excludedPackages parameter to broadcast
+24b912517799 Merge cherrypicks of [16940229, 19109495, 19344104, 19459069, 17324202, 19537073, 19117575] into security-aosp-sc-release.
+7fa32b4da4a1 Enforce zen rule limit on a package level.
+3387b58a4cee DO NOT MERGE - Exclude TYPE_PRIVATE_PRESENTATION app visiblity
+7a4a810fc78b Merge cherrypicks of [18002380, 16940229, 19101007, 19139540] into security-aosp-sc-release.
+a1baa08b7660 Fix Notification redaction when power cycling a non-dozing device while occluded.
+d54cff23d736 Merge cherrypicks of [16565830, 17875442, 18359892, 18279994, 18321041, 18200760, 18200761, 18496484, 18763013, 18714947, 18701369] into security-aosp-sc-release.
+4c3f9e0e37b3 Remove package name from SafetyNet logs
+7e4ff66597eb Block FullScreenIntent while device is in use if notification has a silencing GroupAlertBehavior.
+3b46cef1534b Parcel: recycle recycles
+57a8e0a0e674 Stop crashing the system on hitting the alarm limit
+75de5a1f802b Fix duplicate permission privilege escalation
+a1419335dd86 Restrict getInputMethodWindowVisibleHeight
+dae26dc8d76c Only allow the system server to connect to sync adapters
+470adfc31db4 Stop using invalid URL to prevent unexpected crash
+949573ea9a6a Remove package title from notification access confirmation intent
+e1f3cb213291 Make CheckOp return allowed if any attr tag for a package is excluded
+6830e754640c Allow system server uid to bypass location restriction
+b8c108aeca38 Disallow privileged apps to bypass location restriction
+52756d57d5f4 DO NOT MERGE. Add a permissions check to LocationManagerService.
+18ade10fb8ca Clear mInterface before calling resetIkeState()
+5dd54b0d8492 Make sure callingPackage belongs to callingUid when checking BG-FGS restrictions.
+43f588e6f6af DO NOT MERGE Suppress notifications when device enter lockdown
+bc4365489da3 Merge cherrypicks of [17416116, 17416117, 17416118, 17416119, 17452466, 17666662, 17875442, 18087662, 18298311, 18297726, 17646532] into security-aosp-sc-release.
+caa025154e78 [RESTRICT AUTOMERGE]Only allow system and same app to apply relinquishTaskIdentity
+6a7ce3a5178d DO NOT MERGE: WM: Call Transaction#sanitize
+afa3e27762dd USB: Increase debounce time for DISCONNECT processing (revised)
+18686d515cda Log to EventLog on prepareUserStorage failure
+ea13128af654 Ignore errors preparing user storage for existing users
+55d94090ec4e UserDataPreparer: reboot to recovery for system user only
+ae2c8a1e4e0f UserDataPreparer: reboot to recovery if preparing user storage fails
+220754845f83 StorageManagerService: don't ignore failures to prepare user storage
+3745eeceb683 Merge cherrypicks of [16565830, 17046135, 17186288, 17343385, 17408864, 17071224, 17592027, 17567806, 16908080] into security-aosp-sc-release.
+c1b5a47a2d79 limit TelecomManager#registerPhoneAccount to 10; api doc update
+40f53c59ac67 [sc] RESTRICT AUTOMERGE Add finalizeWorkProfileProvisioning.
+35e4d6fe4816 Fix NPE
+75bba2b22bff Prevent exfiltration of system files via user image settings.
+42935f6c5a72 Prevent non-admin users from deleting system apps.
+f9859072a48b Fix security hole in GateKeeperResponse
+ce07f24f88f7 Update GeofenceHardwareRequestParcelable to match parcel/unparcel format.
+3285fa77f3e9 Add an OEM configurable limit for zen rules
+079189f73931 Merge cherrypicks of [16765537, 16873352, 16826865, 16713985, 16681833, 17104654, 17089346, 17112051] into security-aosp-sc-release.
+3db3ee132edb Always restart apps if base.apk gets updated.
+ed068eed6bcf Verify caller before auto granting slice permission
+26f56fabf40b [Ongoing Call] Don't call #getIntent to avoid a security vulnerability.
+3bf617a15329 Replace BitmapRegionDecoder with ImageDecoder
+29765b7d0ff4 [RESTRICT AUTOMERGE] Do not resume activity if behind a translucent task
+371963d5e47e Keyguard - Treat messsages to lock with priority
+0b0ca92c3033 Filter notification APIs by user
+f43017486b57 Update permissions for ServiceState broadcast
+77d2be669b9b Merge cherrypicks of [16623717, 16664941, 16461958, 16612527, 16743243, 16778744] into security-aosp-sc-release.
+53ed20fff863 Security fixes for PendingIntent related apis in LauncherApps
+bd6c3e8587ed [RESTRICT AUTOMERGE] Add hide-non-system-overlay flag for HarmfulAppWarningActivity
+1a5c8cd850e1 Restrict AdbManager broadcasts to apps with MANAGE_DEBUGGING permission.
+e6c826279b8d Validate pid can be trusted
+e60d0d1767c7 Fix a mismatch in Bitmap_createFromParcel
+28a9d2870591 Prevent apps from creating blocked channel groups
+b72c17cfb391 Merge cherrypicks of [15748730, 16439364, 16380965, 16445550, 16565830, 16600890, 16572065, 16602652] into security-aosp-sc-release.
+a5823634ad37 Handle onNullBinding
+5b7d8af2dfd6 Don't abandon child sessions (1/n)
+200a53c1bf85 Check group channels for FGSes
+21ba1f428a29 Add ALLOW_SLIPPERY_TOUCHES permission
+a0cf9128f3bc Get fresh InProgress array in AttributedAppOp when adding/removing
+8b0826ac5db1 Revert "Increase debounce time for DISCONNECT processing"
+8cce62df949d Only allow trusted overlays to specify FLAG_SLIPPERY
+94b662ae5492 Merge cherrypicks of [16371343, 16308034, 16375906, 16148688] into security-aosp-sc-release.
+d51a23b74f4b Controls - Do not recreate intent
+dee93d5822dd Add missing size check when parsing staged aliases
+418ba12ca45a Merge cherrypicks of [15394764, 16077739, 15959732, 15748730, 16222839] into security-aosp-sc-release.
+f59e445693c4 Update deletion conditions for a package's UsageStats.
+32c9e26ec0dc Revert "Revert "[pm] remove old stage dirs on low storage""
+8fde467e7f5e Block SHELL_UID from overlay fabricate and clear shell overlays on boot
+eda95180fd50 Prevent apps from spamming addAccountExplicitly. See comment here for the discussion on solution https://b.corp.google.com/issues/169762606#comment14
+c13ef30478f3 Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+7051f29b7cd2 Do not show the notification footer until the user is set up.
+383d70834132 Refactor sensor use dialog to show above applications
+6de63a5278ff Fix serialization bug in GpsNavigationMessage
+844d771a8900 Merge cherrypicks of [15857124, 15857125, 15857126, 15857247, 15857248, 15857249, 15854751, 15857148, 15856928, 15855958] into security-aosp-sc-release
+407c5618cf17 Fix Security issue for Html.fromHtml without escape
+ee772413d734 TIF: fix issue of using caller-aware methods after clearCallingIdentity()
+615faa48020d Revoke internal permissions upon owner change.
+a77e60084aef Bluetooth: Fix formatting in getAlias()
+c05dc5f28ee9 Use ArrayMap instead of SparseArray to manage the ProviderKey
+
+project frameworks/minikin/
+1b863a6 Merge cherrypicks of [19981131, 20100213] into security-aosp-sc-release.
+ee13242 Fix OOB crash for registerLocaleList
+3638855 Fix OOB read for registerLocaleList
+
+project frameworks/native/
+5bcfdc3149 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22465455'] into security-aosp-sc-release.
+a59266f3ee Add AppOps overload to be able to watch foreground changes.
+cbb77a5753 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23905808'] into security-aosp-sc-release.
+1f65b3a3eb Fix for heap-use-after-free in GPUService.cpp
+0b03481266 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23677154'] into security-aosp-sc-release.
+ae0f9c6114 Allow sensors list to be empty
+2c6753f4cf Merge cherrypicks of ['googleplex-android-review.googlesource.com/21548669', 'googleplex-android-review.googlesource.com/21548670', 'googleplex-android-review.googlesource.com/21548671'] into security-aosp-sc-release.
+9f251df75a Add removeInstanceForPackageMethod to SensorManager
+fd36073049 Remove some new memory leaks from SensorManager
+d18c33a145 Check for malformed Sensor Flattenable
+19b6f32584 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20886664'] into security-aosp-sc-release.
+26b4a00d1a Mitigate the security vulnerability by sanitizing the transaction flags.
+54e3bb07bc Merge cherrypicks of ['ag/18029505'] into security-aosp-sc-release.
+11fb9f667f Allow windowhandles with NO_INPUT_CHANNEL - DO NOT MERGE
+b3a323c7c2 Merge cherrypicks of [16740114, 16740115, 16740116, 15829070, 18029505] into security-aosp-sc-release.
+b9ecbbdded Initialize DrawingState::trustedOverlay to false in constructor
+6e6fa67c1a SurfaceFlinger: Implement drop input modes
+9f3eae98ef InputFlinger: Add DROP_INPUT feature flags
+2c2a47826b SurfaceControl: Add setDropInputMode api
+b38e816745 Merge cherrypicks of [17562512, 18766107] into security-aosp-sc-release.
+a49c413aee RESTRICT AUTOMERGE SurfaceFlinger: fix a potential race condition in stealReceiveChannel
+06ea6b3811 DO NOT MERGE: SurfaceControl: Ensure unused fields are zeroed
+459fbd2f97 Merge cherrypicks of [17649501] into security-aosp-sc-release.
+f89bca9924 DO NOT MERGE: SurfaceFlinger: Add Transaction#sanitize
+67b21eecd9 Merge cherrypicks of [16613881] into security-aosp-sc-release.
+403c96cdd4 Skip creating external textures that exceeds size limit
+f551049d4c Merge cherrypicks of [16177015] into security-aosp-sc-release.
+c8137e3714 avoid extra release of unowned objects in Parcel error path
+
+project frameworks/opt/telephony/
+61a7c85a01 Merge cherrypicks of [18168005] into security-aosp-sc-release.
+1846448436 Enforce privileged phone state for getSubscriptionProperty(GROUP_UUID)
+8306687a20 Merge cherrypicks of [16206381] into security-aosp-sc-release.
+55a2ea34b5 filter deviceIdentifiers for subscriptionInfo if callers without perm
+
+project hardware/interfaces/
+7bc8fdca94 Merge cherrypicks of ['ag/20614826'] into security-aosp-sc-release.
+bc119ccb7c Add additional bounds checks to NNAPI FMQ deserialize utility functions
+72ad8858cf Merge cherrypicks of [19214732] into security-aosp-sc-release.
+ed6faa58fd Fix array out of bound in audioTransportToHal.
+
+project hardware/nxp/nfc/
+c9b3f28 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21680607'] into security-aosp-sc-release.
+9c20c2d OOBR in AnalyzeMfcResp in NxpMfcReader.cc
+fe28c7f Merge cherrypicks of ['googleplex-android-review.googlesource.com/19985994', 'googleplex-android-review.googlesource.com/21087452', 'googleplex-android-review.googlesource.com/21160565'] into security-aosp-sc-release.
+ec0a95d OOBR in NxpMfcReader::SendIncDecRestoreCmdPart2
+8b256f5 Revert "OOBR in NxpMfcReader::SendIncDecRestoreCmdPart2"
+93f8c96 OOBR in NxpMfcReader::SendIncDecRestoreCmdPart2
+090bf44 Merge cherrypicks of ['ag/21074774'] into security-aosp-sc-release.
+db6fe64 Revert "OOBR in NxpMfcReader::SendIncDecRestoreCmdPart2"
+6373a79 Merge cherrypicks of [19985994] into security-aosp-sc-release.
+a709318 OOBR in NxpMfcReader::SendIncDecRestoreCmdPart2
+ffc5d79 Merge cherrypicks of [19413617] into security-aosp-sc-release.
+dc1f4d5 OOBW in phNxpNciHal_write_unlocked()
+8079fe3 Merge cherrypicks of [16089291] into security-aosp-sc-release.
+997680f Use after free in phTmlNfc_TmlThread
+1b9d3b1 Merge cherrypicks of [15857124, 15857125, 15857126, 15857247, 15857248, 15857249, 15854751, 15857148, 15856928, 15855958] into security-aosp-sc-release
+4a00c61 OOBW in phNxpNciHal_process_ext_rsp
+
+project packages/apps/Bluetooth/
+7041d84bb Merge cherrypicks of ['googleplex-android-review.googlesource.com/24946343'] into security-aosp-sc-release.
+4b614b162 Fix UAF in ~CallbackEnv
+28d481b44 Merge cherrypicks of [20078165] into security-aosp-sc-release.
+f1c61707b Fix URI check in BluetoothOppUtility.java
+6dfddfb39 Merge cherrypicks of [17620135, 17623018] into security-aosp-sc-release.
+bfaf7cb28 Removes app access to BluetoothAdapter#setDiscoverableTimeout by requiring BLUETOOTH_PRIVILEGED permission.
+76894ce62 Removes app access to BluetoothAdapter#setScanMode by requiring BLUETOOTH_PRIVILEGED permission.
+
+project packages/apps/Camera2/
+713aca5f6 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25135945'] into security-aosp-sc-release.
+e03a3c52f Camera2: Do not pass location info for startActivity case
+
+project packages/apps/Car/Settings/
+2b6d345f3 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21804481', 'googleplex-android-review.googlesource.com/21804480'] into security-aosp-sc-release.
+7c4b256b2 Convert argument to Intent in car settings AddAccountActivity.
+b30b17851 Convert argument to Intent in car settings account removal.
+47fd20f80 Merge cherrypicks of [16576160] into security-aosp-sc-release.
+976b983f5 Add caller check to com.android.credentials.RESET
+
+project packages/apps/Contacts/
+589ecf70b Merge cherrypicks of [17008939] into security-aosp-sc-release.
+a79b6d2f5 No longer export CallSubjectDialog
+b087f8c4c Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+53b7d64c6 Address photo editing security bug
+063c8aac4 Merge cherrypicks of [15857124, 15857125, 15857126, 15857247, 15857248, 15857249, 15854751, 15857148, 15856928, 15855958] into security-aosp-sc-release
+e4b0bd5c9 Add permission to start NFC activity to ensure it is from NFC stack
+
+project packages/apps/Dialer/
+8850c9286 Merge cherrypicks of [17034412] into security-aosp-sc-release.
+46c0bd706 No longer export CallSubjectDialog
+da43836ea Merge cherrypicks of [16243879, 16199369, 16199730, 16554823] into security-aosp-sc-release.
+6da695c1f Remove PhoneAccountHandle when building the intent to call Voicemail.
+76b9d997f Add a permission to guard receiving intents in StatusSmsFetcher.
+dd7ba97f2 Use an explicit intent to start VoicemailChangePinActivityPeer.
+78d94fd29 Hash ICC ID used in the notification tag for voicemail notifications.
+7f4fdfb51 Merge cherrypicks of [16199731] into security-aosp-sc-release.
+509eb2ba6 Add FLAG_IMMUTABLE to PendingIntent in LegacyModeSmsHandler.
+
+project packages/apps/EmergencyInfo/
+e488a48c Merge cherrypicks of ['ag/20639573'] into security-aosp-sc-release.
+1b90e48b Removes unnecessary permission from the EmergencyInfo app.
+7c7b0163 Merge cherrypicks of [19430798, 19755176] into security-aosp-sc-release.
+85574cbd Prevent exfiltration of system files via avatar picker.
+5ffe0aa7 Revert "Prevent exfiltration of system files via user image settings."
+eb155147 Merge cherrypicks of [17004678] into security-aosp-sc-release.
+b8c63c84 Prevent exfiltration of system files via user image settings.
+
+project packages/apps/KeyChain/
+50d4526 Merge cherrypicks of [18281033] into security-aosp-sc-release.
+4eca0e0 Encode authority part of uri before showing in UI
+ed745a6 Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+5ae9a81 KeyChain protect against overlays.
+8d4095c Hide overlay on KeyChainActivity
+
+project packages/apps/Launcher3/
+d13a57bd2b Merge cherrypicks of ['googleplex-android-review.googlesource.com/24751391'] into security-aosp-sc-release.
+8a0d866766 Fix permission bypass in legacy shortcut
+8a88157840 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23526090'] into security-aosp-sc-release.
+8cf9fd52b0 Fix permission issue in legacy shortcut
+d2698e3565 Merge cherrypicks of [16444734] into security-aosp-sc-release.
+b11dad7ff4 Add ALLOW_SLIPPERY_TOUCHES to make StatusBarTouchController slippery
+
+project packages/apps/ManagedProvisioning/
+6a80baf67 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23262051'] into security-aosp-sc-release.
+f6e132567 Remove factory-reset logic from post-suw syncauth
+a792f08aa Merge cherrypicks of [17570104] into security-aosp-sc-release.
+30dc771a3 [sc] RESTRICT AUTOMERGE Use finalizeWorkProfileProvisioning.
+bf4ddb496 Merge cherrypicks of [16570106] into security-aosp-sc-release.
+3a6903964 Make ManagedProvisioning hide non-system overlays
+447809cbc Merge cherrypicks of [16420583] into security-aosp-sc-release.
+82d7ac579 Fix Managed Provisioning crash on OTA
+
+project packages/apps/Nfc/
+6aaeb90c Merge cherrypicks of ['googleplex-android-review.googlesource.com/25238220'] into security-aosp-sc-release.
+6f66b111 Possible deadlock on the NfcService object
+10b4fd37 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23519726'] into security-aosp-sc-release.
+046e68a8 Ensure that SecureNFC setting cannot be bypassed
+db799a44 Merge cherrypicks of [17265115] into security-aosp-sc-release.
+952a62a1 OOB read in phNciNfc_RecvMfResp()
+4e5a0374 Merge cherrypicks of [16691816] into security-aosp-sc-release.
+f6aa8705 Do not set default contactless application without user interaction
+84bd162f Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+8b7fea59 OOBW due to incorrect error handling
+
+project packages/apps/QuickSearchBox/
+e1c63ad Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+44f6310 Secure the pendingIntent in SearchWidgetProvider.
+
+project packages/apps/Settings/
+ac3c94f8c58 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24956689'] into security-aosp-sc-release.
+ad8ee349c42 Validate ringtone URIs before setting
+3100dfb323a Merge cherrypicks of ['googleplex-android-review.googlesource.com/23982017', 'googleplex-android-review.googlesource.com/24301339'] into security-aosp-sc-release.
+c3a629f28c5 RESTRICT AUTOMERGE: Catch exceptions from setLockCredential()
+1eff772d805 [RESTRICT AUTOMERGE] Restrict ApnEditor settings
+8f51779eb08 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23563580', 'googleplex-android-review.googlesource.com/23712724', 'googleplex-android-review.googlesource.com/23545222'] into security-aosp-sc-release.
+b8a46b8ac93 DO NOT MERGE: Prevent non-system IME from becoming device admin
+c0e31c75aa1 Settings: don't try to allow NLSes with too-long component names
+fcf426577a2 Don't hide approved NLSes in Settings
+9fac3e3565a Merge cherrypicks of ['googleplex-android-review.googlesource.com/22861203'] into security-aosp-sc-release.
+558b0d4532b Fix: Bluetooth and Wifi scanning location MainSwitch page policy transparency.
+5c58b1cf451 Merge cherrypicks of ['googleplex-android-review.googlesource.com/16341972', 'googleplex-android-review.googlesource.com/18062875', 'googleplex-android-review.googlesource.com/21872485', 'googleplex-android-review.googlesource.com/22290646'] into security-aosp-sc-release.
+9e07831ffb2 Don't show NLSes with excessively long component names
+18693c78de2 Convert argument to intent in AddAccountSettings.
+88be75b7656 Import translations. DO NOT MERGE ANYWHERE
+6831b8e4c4a [Settings] Move display of VPN version into summary text
+374c4c22ded Merge cherrypicks of ['googleplex-android-review.googlesource.com/21298578'] into security-aosp-sc-release.
+74633f25b9d [DO NOT MERGE] Enforce INTERACT_ACROSS_USERS_FULL permission for NotificationAccessDetails
+390652f3df9 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21154458'] into security-aosp-sc-release.
+7aedffc08ee Only primary user is allowed to control secure nfc
+30abb66b244 Merge cherrypicks of ['ag/20640996', 'ag/20872582'] into security-aosp-sc-release.
+b56426182a3 Add DISALLOW_APPS_CONTROL check into uninstall app for all users
+fac01fd8fc7 FRP bypass defense in the settings app
+76529ede076 Merge cherrypicks of ['ag/20419567'] into security-aosp-sc-release.
+64b1543c876 RESTRICT AUTOMERGE Make bluetooth switch not discoverable via SliceDeepLinkTrampoline
+8f2adc1bf22 Merge cherrypicks of [19949403] into security-aosp-sc-release.
+a6e4500bd2f [DO NOT MERGE] Add FLAG_SECURE for ChooseLockPassword and Pattern
+1f2a888f6c1 Merge cherrypicks of [18219304, 18330690, 18158869, 18670857, 18356595, 18704659, 18670793] into security-aosp-sc-release.
+9d7b4f0fa21 Extract app label from component name in notification access confirmation UI
+1de10d24aa8 [DO NOT MERGE] Fix can't change notification sound for work profile.
+9bd1402e5aa [DO NOT MERGE] Fix Settings crash when setting a null ringtone
+ba075274a7a RESTRICT AUTOMERGE Fix: policy enforcement for location wifi scanning
+645407c8e60 Do not let guest user disable secuer nfc via SettingsSlice
+01b6a6222e5 RESTRICT AUTOMERGE Make bluetooth not discoverable via SliceDeepLinkTrampoline
+a9da6b80994 Verify ringtone from ringtone picker is audio
+b75fea78a5c Merge cherrypicks of [17730677] into security-aosp-sc-release.
+cf31681c456 Fix LaunchAnyWhere in AppRestrictionsFragment
+a81704d27fe Merge cherrypicks of [17397180, 17628096] into security-aosp-sc-release.
+a8913eacf4a Hide non-system overlay window on ActivityPicker
+4bf864fa158 Restrict secondary users to share Wi-Fi network
+e27cb3bd382 Merge cherrypicks of [17129063, 17118783] into security-aosp-sc-release.
+0e2e06cee6e Change default USB configuration to a RestrictedPreference
+2cc7dc055a2 Hide private DNS settings UI in Guest mode
+5310f60ed7b Merge cherrypicks of [16691815] into security-aosp-sc-release.
+a1325496938 Do not let guest user disable secure nfc
+73c4aaf68c1 Merge cherrypicks of [16551092, 16579588, 16577203] into security-aosp-sc-release.
+b9b2d4137a3 Add caller check to com.android.credentials.RESET
+fd7eed08b88 Fix bypass CALL_PRIVILEGED permission in AppRestrictionsFragment
+7719e88fd51 Add non system overlay flag to RequestManageCredentials
+b04a02cc69f Merge cherrypicks of [16101565, 16414971, 16433459] into security-aosp-sc-release.
+cabeeed16bf Import translations. DO NOT MERGE ANYWHERE
+a34d834ae5b Add non system overlay flag to InstallCaCertificateWarning
+a69ab768bdd Rephrase dialog message of clear storage dialog for security concern
+63b9f8122c2 Merge cherrypicks of [16101565, 16145000] into security-aosp-sc-release.
+f6baa2481b8 RESTRICT AUTOMERGE Fix make Bluetooth discoverable without additional permission
+6c6b43e4d3a Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+b1404d616c7 BluetoothSecurity: Add BLUETOOTH_PRIVILEGED permission for pairing dialog
+
+project packages/apps/Traceur/
+0ebaa7b8 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22119816', 'googleplex-android-review.googlesource.com/22339980'] into security-aosp-sc-release.
+96dce7a3 Add DISALLOW_DEBUGGING_FEATURES check
+e3a58e67 Update Traceur to check admin user status
+
+project packages/apps/TvSettings/
+99f2df60f Merge cherrypicks of ['googleplex-android-review.googlesource.com/21876670'] into security-aosp-sc-release.
+a6eeaa868 Convert argument to intent in addAccount TvSettings.
+
+project packages/modules/DnsResolver/
+e51deb83 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24557576'] into security-aosp-sc-release.
+a093dd94 Fix use-after-free in DNS64 discovery thread
+
+project packages/modules/NeuralNetworks/
+717f175d2 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24343270'] into security-aosp-sc-release.
+7ed0a8b7b Fix OOB Read in convertSubgraphFromHAL
+292fa6fe7 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23914069'] into security-aosp-sc-release.
+5b2c3bb86 Fix out of Bounds Read in convertSubgraphFromHAL in ShimConverter.cpp in libneuralnetworks_shim_static
+f972308cf Merge cherrypicks of ['googleplex-android-review.googlesource.com/23219698', 'googleplex-android-review.googlesource.com/23219027'] into security-aosp-sc-release.
+12f3eaefb Fix OOB read in parseInputs in ShimPreparedModel.cpp
+522f457c9 Fix OOB Read in setOperandValue
+6fe7b14d1 Merge cherrypicks of ['ag/20611321'] into security-aosp-sc-release.
+3b995ff9d Add additional bounds checks to NNAPI FMQ deserialize utility functions
+
+project packages/modules/Permission/
+cda1054c6 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25238864'] into security-aosp-sc-release.
+8141e8f4d Do not grant notification access for work apps.
+f2b255411 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20652904'] into security-aosp-sc-release.
+c20027257 RESTRICT AUTOMERGE Finish ManagePermissionsActivity if device is not provisioned
+e174e63af Merge cherrypicks of ['ag/20258562'] into security-aosp-sc-release.
+596c5aa46 Add one-time flag to permission if group is currently one-time
+4f57a7669 Merge cherrypicks of [16371866] into security-aosp-sc-release.
+6e82274db Hide overlays on ReviewPermissionsAtivity
+adb6d1877 Merge cherrypicks of [17829592] into security-aosp-sc-release.
+070bc0cd7 Fix incorrect auto grant for split permissions
+3c245d83b Merge cherrypicks of [16265241, 16265242] into security-aosp-sc-release.
+99d721e25 Allow bypassing qualification for system speech recognizer when testing.
+0f0f2ba24 Default overrideUserWhenGranting to false.
+
+project packages/modules/StatsD/
+727e2695 Merge cherrypicks of ['googleplex-android-review.googlesource.com/26752596'] into security-aosp-sc-release.
+b6aab6c0 [libstatssocket] Added validation for adding new data into StatsEvent
+59c1e75b Merge cherrypicks of ['googleplex-android-review.googlesource.com/24180480'] into security-aosp-sc-release.
+d69f0639 Make log reader thread a class member
+
+project packages/modules/Wifi/
+d180d15909 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24154358'] into security-aosp-sc-release.
+0f4d0afb74 Update password check for WAPI
+487cc91c93 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20290615', 'googleplex-android-review.googlesource.com/22633474', 'googleplex-android-review.googlesource.com/22433755', 'googleplex-android-review.googlesource.com/22625074'] into security-aosp-sc-release.
+62c73a0e67 Add pre-share key check for wapi
+61b45f0191 Limit the ServiceFriendlyNames and limit the number of Passpoint per App
+643901ba64 Add size check on PPS#policy
+c077248b09 Only handle saveToStore from the WifiNetworkSuggestionsManager
+f1707747e7 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21310740'] into security-aosp-sc-release.
+b57842633f Revert "Revert "[DO NOT MERGE] wifi: remove certificates for network factory reset""
+a232e8def7 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21302723'] into security-aosp-sc-release.
+d191ba6ec4 Revert "[DO NOT MERGE] wifi: remove certificates for network factory reset"
+5ef5aa40b3 Merge cherrypicks of ['ag/19693676'] into security-aosp-sc-release.
+bd5b511e4b [DO NOT MERGE] wifi: Reset to default SAP configuration when doing factory reset
+eac603017b Merge cherrypicks of [20290613] into security-aosp-sc-release.
+558320bd68 [Passpoint] Add more check to limit the config size
+5fc40bc643 Merge cherrypicks of [19217852, 19693676, 20035262] into security-aosp-sc-release.
+0a6d7c530b [DO NOT MERGE] passpoint: validate decorated identity prefix
+d5e71249b3 Give the location mode exemption for emergency location service
+456550a34b Merge cherrypicks of [19693251] into security-aosp-sc-release.
+5b657bd5bd [DO NOT MERGE] wifi: remove certificates for network factory reset
+
+project packages/modules/adb/
+3a3d6345 Merge cherrypicks of [17606585] into security-aosp-sc-release.
+515892c0 Backport of Win-specific suppression of potentially rogue construct that can engage in directory traversal on the host.
+
+project packages/providers/ContactsProvider/
+20ec184e Merge cherrypicks of [18818722] into security-aosp-sc-release.
+281b42db enforce stricter CallLogProvider query
+2fc88f94 Merge cherrypicks of [17921289] into security-aosp-sc-release.
+b6d88cdb DO NOT MERGE Add check that prevents file operations outside of Call Composer Dir
+
+project packages/providers/DownloadProvider/
+6cc82ad4 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25150561'] into security-aosp-sc-release.
+4a0141cb DO NOT MERGE: Consolidate queryChildDocumentsXxx() implementations
+38ca6b69 Merge cherrypicks of [16367128, 16432387] into security-aosp-sc-release.
+418984b9 Mock context for permission less app's context
+822a85ce Restrict legacy apps to download files in private app dirs
+
+project packages/providers/MediaProvider/
+eab7187db Merge cherrypicks of ['googleplex-android-review.googlesource.com/24320856'] into security-aosp-sc-release.
+bc4fc1076 Fix path traversal vulnerabilities in MediaProvider
+8e8db3626 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23914414', 'googleplex-android-review.googlesource.com/23916075'] into security-aosp-sc-release.
+05cb9e814 Canonicalize file path for insertion by legacy apps
+2425470e4 Remove invalid surrogates during bindSelection am: b5aadde5f1 am: a09d52e382
+d15baed41 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20942347'] into security-aosp-sc-release.
+c25a67d02 Canonicalise path before extracting relative path
+eda29b944 Merge cherrypicks of [19085838] into security-aosp-sc-release.
+8d5cc67ac isDataOrObbPath blocks access to Android/[data|obb] dirs only
+cee2be778 Merge cherrypicks of [18770133] into security-aosp-sc-release.
+d4b0487f8 DO NOT MERGE Avoid path traversal in MediaProvider delete call
+4d971083f Merge cherrypicks of [16386044] into security-aosp-sc-release.
+8df764e9c Restrict legacy apps to insert files to other private app dirs
+dca16f700 Merge cherrypicks of [15786014] into security-aosp-sc-release.
+15dc9f349 Handle content uris without id in checkUriPermission
+
+project packages/providers/TelephonyProvider/
+9615ec05 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24589272'] into security-aosp-sc-release.
+5c28b8fa DO NOT MERGE Block access to sms/mms db from work profile.
+d2378032 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23185329'] into security-aosp-sc-release.
+018b9649 Update file permissions using canonical path
+4e95b38d Merge cherrypicks of [19734280] into security-aosp-sc-release.
+c37b6ffc Check dir path before updating permissions.
+
+project packages/services/Telecomm/
+15387429d Merge cherrypicks of ['googleplex-android-review.googlesource.com/24876043'] into security-aosp-sc-release.
+aea8bc8cf Resolve account image icon profile boundary exploit.
+d17df9ee7 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24151559'] into security-aosp-sc-release.
+ce284c334 Fix vulnerability in CallRedirectionService.
+c0f2b134f Merge cherrypicks of ['googleplex-android-review.googlesource.com/23593317'] into security-aosp-sc-release.
+92f4cd34f [conflict] Resolve StatusHints image exploit across user. am: 49d19dd265 am: 2a10deb1a0
+292924ef6 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22183547'] into security-aosp-sc-release.
+52bc5e82c Call Redirection: unbind service when onBind returns null
+c0ca9fa87 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21184327'] into security-aosp-sc-release.
+b74f8e21e enforce stricter rules when registering phoneAccounts
+edf26199f Merge cherrypicks of ['googleplex-android-review.googlesource.com/21224930', 'googleplex-android-review.googlesource.com/20659352'] into security-aosp-sc-release.
+ebf765886 DO NOT MERGE do not process content uri in call Intents
+c515063ae Ensure service unbind when receiving a null call screening service in onBind.
+a73d9ca33 Merge cherrypicks of [20028194] into security-aosp-sc-release.
+06562e020 Fix security vulnerability when register phone accounts.
+fc2f7058f Merge cherrypicks of [20069028] into security-aosp-sc-release.
+ed91aca11 Hide overlay windows when showing phone account enable/disable screen.
+5752b8c69 Merge cherrypicks of [19370567, 19868792] into security-aosp-sc-release.
+d181890c3 DO NOT MERGE Fix security vulnerability issue for multi user call redirections.
+f88d8a40b switch TelecomManager List getters to ParceledListSlice
+893a25317 Merge cherrypicks of [16905018] into security-aosp-sc-release.
+873e3a7ee limit TelecomManager#registerPhoneAccount to 10
+e52054d1f Merge cherrypicks of [17104573] into security-aosp-sc-release.
+bf1fe653b Handle null bindings returned from ConnectionService.
+22309e32f Merge cherrypicks of [16373492] into security-aosp-sc-release.
+24d9f5028 Fix sorting issue during emergency call attempt.
+
+project packages/services/Telephony/
+e0d56a863 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20315706', 'googleplex-android-review.googlesource.com/23528263'] into security-aosp-sc-release.
+36f4b2c3c Fixed leak of cross user data in multiple settings.
+f42e9b0af DO NOT MERGE Grant carrier privileges if package has carrier config access.
+11475a3c1 Merge cherrypicks of [20084105] into security-aosp-sc-release.
+ec1f39a43 prevent overlays on the phone settings
+8fc1f89cb Merge cherrypicks of [16578026] into security-aosp-sc-release.
+6d8f5713a Fix pending intent issue in SipAccountRegistry.
+
+project system/bt/
+6dd06d53a Merge cherrypicks of ['googleplex-android-review.googlesource.com/25493876', 'googleplex-android-review.googlesource.com/25532305', 'googleplex-android-review.googlesource.com/25658058', 'googleplex-android-review.googlesource.com/25677226', 'googleplex-android-review.googlesource.com/25842506'] into security-aosp-sc-release.
+55fe7f058 Fix a security bypass issue in access_secure_service_from_temp_bond
+a3f668028 Reland: Fix an OOB write bug in attp_build_value_cmd
+2db38a93c Revert "[conflict] Fix an OOB write bug in attp_build_value_cmd am: ddca760763 am: f1d188c940"
+97a3e885d [conflict] Fix an OOB write bug in attp_build_value_cmd am: ddca760763 am: f1d188c940
+2fbbc83e3 Fix an OOB bug in smp_proc_sec_req
+60d7a1548 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25658058'] into security-aosp-sc-release.
+a8477ca8b Revert "[conflict] Fix an OOB write bug in attp_build_value_cmd am: ddca760763 am: f1d188c940"
+c7d828dc6 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25496571', 'googleplex-android-review.googlesource.com/25505593', 'googleplex-android-review.googlesource.com/25532305'] into security-aosp-sc-release.
+fc182b9db [conflict] Fix an OOB write bug in attp_build_value_cmd am: ddca760763 am: f1d188c940
+2355ac495 Fix an OOB write bug in attp_build_read_by_type_value_cmd
+a2b15b0c6 Fix an OOB bug in btif_to_bta_response and attp_build_value_cmd
+347f6e870 Merge cherrypicks of ['googleplex-android-review.googlesource.com/25265739'] into security-aosp-sc-release.
+b652a6778 [conflict] Merge "Fix some OOB errors in BTM parsing" into rvc-dev am: d8ecaf17b4 am: 91f5cb80a3
+1ab9c16df Merge cherrypicks of ['googleplex-android-review.googlesource.com/24738554', 'googleplex-android-review.googlesource.com/24738555', 'googleplex-android-review.googlesource.com/24738556', 'googleplex-android-review.googlesource.com/24738557', 'googleplex-android-review.googlesource.com/24738558', 'googleplex-android-review.googlesource.com/24834612', 'googleplex-android-review.googlesource.com/24931700', 'googleplex-android-review.googlesource.com/24933651', 'googleplex-android-review.googlesource.com/23356859'] into security-aosp-sc-release.
+2e88f0f50 Add bounds checks in btif_avrcp_audio_track.cc
+82239082e Fix timing attack in BTM_BleVerifySignature
+249f0187b Fix an OOB bug in parse_gap_data
+209da1de2 Factor out duplicate code for parsing gap data
+eddc3380c Enforce authentication if encryption is required
+e98739434 Reorganize the code for checking auth requirement
+c6aae0a73 Reject access to  secure service authenticated from a temp bonding [3]
+6defc75a9 Reject access to secure services authenticated from temp bonding [2]
+57d5d6e76 Reject access to secure service authenticated from a temp bonding [1]
+ce15300de Merge cherrypicks of ['googleplex-android-review.googlesource.com/24217076'] into security-aosp-sc-release.
+3e6b85c42 Fix an integer underflow in build_read_multi_rsp
+5026f1315 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24298359'] into security-aosp-sc-release.
+7e479b546 Revert "[conflict resolved] Merge "Fix a type confusion bug in bta_av_setconfig_rej" into rvc-dev am: 595218098a am: 569663e50a"
+a28250317 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23050528', 'googleplex-android-review.googlesource.com/23267812', 'googleplex-android-review.googlesource.com/23270858', 'googleplex-android-review.googlesource.com/22912152', 'googleplex-android-review.googlesource.com/23524098'] into security-aosp-sc-release.
+44a4efdf0 Fix UAF in gatt_cl.cc
+a76c58ffc Fix potential abort in btu_av_act.cc
+ddd52e178 Fix integer overflow in build_read_multi_rsp
+0cccf6b9f Fix an integer overflow bug in avdt_msg_asmbl
+a6be8c526 [conflict resolved] Merge "Fix a type confusion bug in bta_av_setconfig_rej" into rvc-dev am: 595218098a am: 569663e50a
+84f20ff78 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22316070'] into security-aosp-sc-release.
+7570188ad Fix gatt_end_operation buffer overflow
+7c990d0fa Merge cherrypicks of ['googleplex-android-review.googlesource.com/20169890', 'googleplex-android-review.googlesource.com/22188943', 'googleplex-android-review.googlesource.com/22188946'] into security-aosp-sc-release.
+b11e4eb99 Revert "Revert "Fix wrong BR/EDR link key downgrades (P_256->P_192)""
+e6057cc0b Revert^2 "Validate buffer length in sdpu_build_uuid_seq"
+9df10b01e Prevent use-after-free of HID reports
+2496b7b06 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20614756'] into security-aosp-sc-release.
+46d45175e Fix a use-after-free bug in AttributionProcessor::OnWakelockReleased
+72043d5c4 Merge cherrypicks of ['googleplex-android-review.googlesource.com/20672923', 'googleplex-android-review.googlesource.com/20614756', 'googleplex-android-review.googlesource.com/20614757', 'googleplex-android-review.googlesource.com/20614758', 'googleplex-android-review.googlesource.com/21060030'] into security-aosp-sc-release.
+d02ef6be6 Fix an OOB bug in register_notification_rsp
+c433b79f7 Add regression test for b/254774758
+edc8ffa7d Add mocking support for now function in AttributionProcessor
+279e5b41c Fix OOB access in avdt_scb_hdl_pkt_no_frag
+720a6a04b Merge cherrypicks of ['ag/20614047', 'ag/20834832', 'ag/20857269', 'ag/20874088', 'ag/20857271'] into security-aosp-sc-release.
+0d117a8ab Fix an OOB write in SDP_AddAttribute
+512f5ff2c Fix an OOB access bug in A2DP_BuildMediaPayloadHeaderSbc
+2a69b33f3 Fix an OOB Write bug in gatt_check_write_long_terminate
+fea64c867 Report failure when not able to connect to AVRCP
+f37b4a6ca Merge cherrypicks of ['ag/20069004'] into security-aosp-sc-release.
+b88572989 Add bounds check in avdt_scb_act.cc
+e66910f58 Merge cherrypicks of [19501976, 19747493, 19748339, 19680241, 19698973] into security-aosp-sc-release.
+006855670 Fix integer overflow when parsing avrc response
+aff27292c Add length check when copy AVDT and AVCT packet
+fe4c178e2 Add missing increment in bnep_api.cc
+1d90989f5 Added max buffer length check
+e331772d5 Add length check when copy AVDTP packet
+6bc0335c1 Merge cherrypicks of [19610022, 19887725] into security-aosp-sc-release.
+7807c44a8 resolve merge conflicts of 9c93920de7a8d8106a1bc2e11ebfed79df66946b to sc-dev
+ed6d9378d Add negative length check in process_service_search_rsp
+d38320605 Merge cherrypicks of [17530408, 19501976] into security-aosp-sc-release.
+9120a1423 Fix potential interger overflow when parsing vendor response
+c868f7b75 Merge cherrypicks of [18612306, 18605744] into security-aosp-sc-release.
+6ad3f69b2 Removing bonded device when auth fails due to missing keys
+e0dd01b53 l2cap: Verify number of channels in the CoC request
+d1d090123 Merge cherrypicks of [17777241, 17777138, 18119099, 18030838] into security-aosp-sc-release.
+6e119593b Security: Fix out of bound read in AT_SKIP_REST
+e1cf6d951 Check Avrcp packet vendor length before extracting length
+c87bd66b6 Security: Fix out of bound write in HFP client
+5ed83745d Fix out of bond write in gatt_db
+fc40c99fc Merge cherrypicks of [17570067] into security-aosp-sc-release.
+0b043802d GATT multi read: account for length for variable length read
+e8ddc0364 Merge cherrypicks of [16816453] into security-aosp-sc-release.
+08a02077c Fix OOB of L2CAP_CMD_CREDIT_BASED_CONN_RES
+17745643a Merge cherrypicks of [16816306, 16630865] into security-aosp-sc-release.
+e1f900bc4 Security fix OOB read due to invalid count in stack/avrc/avrc_pars_ct
+86e8bee8b Security fix for potential OOB read in L2CAP
+cb0761cd9 Merge cherrypicks of [16424061] into security-aosp-sc-release.
+29cb5f93b Handle bogus multi value packet lengths
+c115e75e5 Merge cherrypicks of [16207305, 16184351] into security-aosp-sc-release.
+89e1dbd35 Reset the IRK after all devices are unpaired
+cf7079488 security: Use-After-Free in btm_sec_[dis]connected
+30c4d071c Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+35cf1b54a osi: Prevent memory allocations with MSB set
+2f3e79c7d Merge cherrypicks of [15857124, 15857125, 15857126, 15857247, 15857248, 15857249, 15854751, 15857148, 15856928, 15855958] into security-aosp-sc-release
+869b2e851 Security Fix: Crafted GATT request causes BT stack crash
+
+project system/ca-certificates/
+d7d0097 Merge cherrypicks of ['googleplex-android-review.googlesource.com/23583481'] into security-aosp-sc-release.
+0342101 Remove E-Tugra certificates.
+a1d2098 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22944915'] into security-aosp-sc-release.
+b3632bf Drop TrustCor certificates
+
+project system/connectivity/wificond/
+d515a87 Merge cherrypicks of ['ag/20330536'] into security-aosp-sc-release.
+30d9781 Use sp<T>::make to create the sp pointer for EventLoopCallback
+
+project system/core/
+68a773492 Merge cherrypicks of ['googleplex-android-review.googlesource.com/24776869'] into security-aosp-sc-release.
+571704cdb Add seal if ashmem-dev is backed by memfd
+
+project system/libfmq/
+706847f Merge cherrypicks of ['googleplex-android-review.googlesource.com/26518906'] into security-aosp-sc-release.
+79bbf4a Use the values of the ptrs that we check
+
+project system/netd/
+2c29389d Merge cherrypicks of ['googleplex-android-review.googlesource.com/24366176'] into security-aosp-sc-release.
+b3407e31 Fix Heap-use-after-free in MDnsSdListener::Monitor::run
+
+project system/nfc/
+a09be9b5 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22977056'] into security-aosp-sc-release.
+f3bf6add OOBW in rw_i93_send_to_upper()
+0ec99062 Merge cherrypicks of ['googleplex-android-review.googlesource.com/21162699'] into security-aosp-sc-release.
+5da5877a OOBW in nci_snd_set_routing_cmd()
+f98ab42e Merge cherrypicks of [19504916] into security-aosp-sc-release.
+0cd2b0c0 The length of a packet should be non-zero
+6bb0c570 Merge cherrypicks of [17245462, 17129429, 17310817] into security-aosp-sc-release.
+3dcd64ae OOBR in nfc_ncif_proc_ee_discover_req()
+250b555b Double Free in ce_t4t_data_cback
+d8d730d1 Out of Bounds Read in nfa_dm_check_set_config
+b76cb08a Merge cherrypicks of [16356098] into security-aosp-sc-release.
+6ae8d57d Tag-mismatch in NFA_SendRawFrame
+973edb37 Merge cherrypicks of [15857124, 15857125, 15857126, 15857247, 15857248, 15857249, 15854751, 15857148, 15856928, 15855958] into security-aosp-sc-release
+6ad89ae0 Tag-mismatch in rw_t4t_data_cback
+
+project system/security/
+89d99719 Merge cherrypicks of [16511961] into security-aosp-sc-release.
+674eac34 Validate artifacts before calling odrefresh --compile.
+63cf7b74 Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+192f72eb Keystore 2.0 km_compat: Buffer incomplete updates.
+
+project system/sepolicy/
+27d7b54b3 Merge cherrypicks of [16616068] into security-aosp-sc-release.
+b2fd7a5ac Allow adbd to access /proc/net/{tcp,tcp6,udp,udp6}
+
+project system/tools/aidl/
+f783066d Merge cherrypicks of [16381824] into security-aosp-sc-release.
+49c60491 Fix sc-dev-plus-aosp builds
+b919cf4a Merge cherrypicks of [16379730] into security-aosp-sc-release.
+9f84b9f8 Revert "Revert "Add automatic default value for char-type field""
+708a5b1b Merge cherrypicks of [16011302, 16010621, 16011379, 16011380, 16011397, 16011399, 16011401, 16010622, 16011572, 16011573, 16010922, 16011433, 16011690, 16011381, 16012427, 16011576] into security-aosp-sc-release
+14255920 An enum is initialized as zero if it doesn't have default value
+
+project test/vts/
+7c8701cef Merge cherrypicks of [15749384, 15749385, 15749021, 15749367, 15749149, 15749150, 15749402, 15748246, 15748540, 15749368, 15749369, 15749386, 15749387, 15749403, 15749404] into sc-release
+1555808c5 Temporarily skip tests know to be broken.
+
+project tools/apksig/
+cc504e1 Merge cherrypicks of ['googleplex-android-review.googlesource.com/22389785'] into security-aosp-sc-release.
+0caee3f Limit the number of supported v1 and v2 signers
