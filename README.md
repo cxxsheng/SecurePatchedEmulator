@@ -42,7 +42,7 @@ To create a secure Android emulator image with the latest security patches, foll
 0. Initialize and sync the AOSP repository:
    ```shell
    repo init -u https://android.googlesource.com/platform/manifest -b android-14.0.0_r1
-repo sync
+   repo sync
    ```
    Replace `android-14.0.0_r1` with the desired Android version.
 
