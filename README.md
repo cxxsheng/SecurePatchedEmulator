@@ -32,7 +32,7 @@ To set up and launch the SecurePatchedEmulator, follow these steps:
    ```shell
    cd /path/to/sdk/tools
    ./emulator @YourAVDName -sysdir /path/to/emulator/x86_64
-```
+   ```
    
    Replace `YourAVDName` with the name of your Android Virtual Device (AVD) and `/path/to/emulator` with the actual path where you extracted the emulator files. Ensure that the Android version used to create `YourAVDName` matches the Android version of the emulator image.
 
