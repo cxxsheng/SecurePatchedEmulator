@@ -78,7 +78,7 @@ To create a secure Android emulator image with the latest security patches, foll
 
    ```shell
    source ./build/envsetup.sh
-   lunch sdk_phone_x86-userdebug
+   lunch sdk_phone_x86_64-userdebug
    make emu_img_zip -j$(nproc)
    ```
 
@@ -96,6 +96,44 @@ To create a secure Android emulator image with the latest security patches, foll
 
    - `sdk-repo-linux-system-images-eng.[username].zip`
    - `repo-sys-img.xml`
+
+### Postscript
+
+After `android-14.0.0_r29`, using `lunch sdk_phone_x86_64-userdebug` will result in the following error:
+
+```shell
+Valid combos must be of the form <product>-<release>-<variant>
+```
+
+After consulting Google's documentation, it was found that the `trunk_staging` option needs to be added, but using `lunch sdk_phone_x86_64-trunk_staging-userdebug` will result in the following error:
+
+```shell
+In file included from build/make/core/config.mk:380:
+In file included from build/make/core/envsetup.mk:369:
+build/make/core/product_config.mk:226: error: Cannot locate config makefile for product "sdk_phone_x86_64"
+```
+
+I found that the `target/product/sdk_phone_x86_64.mk` file no longer exists, and I looked at the [commit](https://cs.android.com/android/_/android/platform/build/+/4bf479f6057ad532c792e26d3d958a8b50fc1f02) that describes the changes:
+
+```diff
+Retire obsolete emulator targets and boards
+
+the sdk_phone* targets are replaced with sdk_phone64*,
+the emulator* boards are replaced with emu64* in
+the device/generic/goldfish folder.
+
+Bug: 295259752
+Test: presubmit
+Change-Id: I069a06baf02aea30db617f183abbfeaa6f968f29
+Signed-off-by: Roman Kiryanov <rkir@google.com>
+```
+
+Therefore, the correct command to use should be:
+
+```shell
+lunch sdk_phone64_x86_64-trunk_staging-userdebug
+```
+
 
 ###  Reference：
 
