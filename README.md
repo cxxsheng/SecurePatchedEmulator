@@ -51,13 +51,13 @@ To create a secure Android emulator image with the latest security patches, foll
 2. Fetch security patch tags across AOSP repositories, For quick preview:
 
    ```shell
-   2. repo forall -p -c 'git fetch aosp android-security-14.0.0_r9 --depth 1'
+   2. repo forall -j8 -p -c 'git fetch aosp android-security-14.0.0_r9 --depth 1'
    ```
    
    For security researchers, full history enables comprehensive vulnerability analysis.
    
    ```shell
-   2. repo forall -p -c 'git fetch aosp android-security-14.0.0_r9'
+   2. repo forall -j8 -p -c 'git fetch aosp android-security-14.0.0_r9'
    ```
    Replace `android-security-14.0.0_r9` with the actual security patch tag.
 
