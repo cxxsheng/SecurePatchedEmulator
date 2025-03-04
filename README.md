@@ -48,31 +48,36 @@ To create a secure Android emulator image with the latest security patches, foll
 
 1. Identify the latest security patch tag from the[ `platform_build`](https://github.com/aosp-mirror/platform_build/tags ) repository on GitHub. For example, [`android-security-14.0.0_r9`](https://github.com/aosp-mirror/platform_build/releases/tag/android-security-14.0.0_r9):
 
-2. Fetch the security patch tag across all AOSP repositories:
+2. Fetch security patch tags across AOSP repositories, For quick preview:
 
    ```shell
    2. repo forall -p -c 'git fetch aosp android-security-14.0.0_r9 --depth 1'
    ```
-
+   
+   For security researchers, full history enables comprehensive vulnerability analysis.
+   
+   ```shell
+   2. repo forall -p -c 'git fetch aosp android-security-14.0.0_r9'
+   ```
    Replace `android-security-14.0.0_r9` with the actual security patch tag.
 
-3. Generate a diff file to review the changes between the current HEAD and the security patch:
+4. Generate a diff file to review the changes between the current HEAD and the security patch:
 
    ```shell
    repo forall -p -c 'git log --oneline HEAD..FETCH_HEAD' > 14.0.0_r1-to-14.0.0_r9.diff.txt
    ```
 
-4. Merge the security patch into the AOSP repositories:
+5. Merge the security patch into the AOSP repositories:
 
    ```shell
    repo forall -p -c 'git merge FETCH_HEAD'
    ```
 
-5. Modify the security patch date in the emulator image:
+6. Modify the security patch date in the emulator image:
 
    In the `build/make/core/version_defaults.mk` file, locate the `ro.build.version.security_patch` variable and change its value to the desired security patch date, e.g., `2024-06-05`.
 
-6. Build the Android emulator image: 
+7. Build the Android emulator image: 
 
    For Android 13 and above:
 
